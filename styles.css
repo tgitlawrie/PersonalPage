@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(43, 44, 68);
+    color: rgb(184, 210, 233);
+    height: 100vh;
+}
+
+.carousel {
+
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.carousel p {
+    font-size: 2rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.icons {
+    font-size: 2em;
+    text-align: end;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+span {
+    color: #bb5f2a;
+    font-weight: bold;
+}
