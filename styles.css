@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(43, 44, 68);
-    color: rgb(184, 210, 233);
+    background-color: #2b2c44;
+    color: #b8d2e9;
     height: 100vh;
 }
 
-.carousel {
+a {
+    color: #b8d2e9 !important;
+}
 
+.carousel {
     height: 50vh;
     width: 100vw;
     text-align: center;
@@ -31,11 +34,17 @@ footer {
 }
 
 img {
-    width: 30%;
-    height: 30%;
+
+    height: 60vh;
+    object-fit: contain;
 }
 
 span {
     color: #bb5f2a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bb5f2a !important;
     font-weight: bold;
 }
