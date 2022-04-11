@@ -35,8 +35,14 @@ footer {
 
 img {
 
-    height: 60vh;
-    object-fit: contain;
+    max-width: 30%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 60%;
+    }
 }
 
 span {
@@ -47,4 +53,9 @@ span {
 a:hover {
     color: #bb5f2a !important;
     font-weight: bold;
+}
+
+#project-link {
+    text-decoration: none;
+    font-size: 2em;
 }

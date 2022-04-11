@@ -15,23 +15,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="Index.html">About Me</a>
-                    <a class="nav-link" href="projects.html">Projects</a>
-                    <a class="nav-link" href="Tlawrie Resume.pdf" target="_blank">Resume <i
-                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+    </ul>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
@@ -43,20 +34,24 @@
                 <img src="20200324_185724.jpg" alt="" srcset="">
             </div>
             <div class="carousel-item">
-                <p>I Love all Things <span>Motorcycles</span> and Gaming</p>
+                <p>I <span>Love</span> all things motorcycles and gaming</p>
             </div>
             <div class="carousel-item">
                 <p>My goal is to be a <span>successful</span> Full Stack Developer</p>
             </div>
+            <div class="carousel-item">
+                <p>Check out my <span>Projects</span></p><br>
+                <p>If you'd like to work <span>together</span>, get in touch!</p>
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" id="arrow" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
-            <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" id="arrow" data-bs-target=" #carouselExampleCaptions"
             data-bs-slide="next">
-            <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>

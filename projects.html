@@ -15,48 +15,35 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="Index.html">About Me</a>
-                    <a class="nav-link" href="projects.html">Projects</a>
-                    <a class="nav-link" href="Tlawrie Resume.pdf" target="_blank">Resume <i
-                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+    </ul>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-6 text-center mx-auto">
                 <div class="card bg-transparent border-0">
                     <h5 class="card-title">Yelp Camp</h5>
                     <a href="https://shielded-river-13246.herokuapp.com/" target="_blank"><img src="yelpcamp.jpg"
                             class="card-img-top img-fluid" alt="yelpcamp"></a>
-                    <div class="card-body">
-                        <p class="card-text">Yelp Style review app, this was a course project, Using MongoDb
-                            Express and
-                            nodejs along with a ton of
-                            dependencies. <br>Has Authentication and authorization, salted and hashed passwords,
-                            geolocation
-                            with cluster map.</p>
+                    <div class="card-body"><a href="https://shielded-river-13246.herokuapp.com/" target="_blank"
+                            id="project-link">Visit</a>
+                        <p class=" card-text">
+                        <p>Yelp Style review app, </p>
+                        <p>Save a campsite, Leave a review, View others campsites</p>
+                        this was a course project, Using MongoDb
+                        Express and
+                        nodejs along with a ton of
+                        dependencies. Has Authentication and authorization, salted and hashed passwords,
+                        geolocation
+                        with cluster map.</p>
                     </div>
 
-                </div>
-            </div>
-            <div class="col-md-6 text-center">
-                <div class="card bg-transparent border-0">
-                    <h5 class="card-title">Some other project here</h5>
-                    <img src="yelpcamp.jpg" class="card-img-top img-fluid" alt="...">
-                    <div class="card-body">
-                        <p class="card-text pt-5">Need to polish off another project to go here</p>
-                    </div>
                 </div>
             </div>
         </div>
