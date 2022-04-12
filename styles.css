@@ -34,7 +34,7 @@ footer {
 }
 
 img {
-
+    border-radius: 4px;
     max-width: 30%;
     height: auto;
 }
