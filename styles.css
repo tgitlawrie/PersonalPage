@@ -1,0 +1,61 @@
+body {
+    background-color: #2b2c44;
+    color: #b8d2e9;
+    height: 100vh;
+}
+
+a {
+    color: #b8d2e9 !important;
+}
+
+.carousel {
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.carousel p {
+    font-size: 2rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.icons {
+    font-size: 2em;
+    text-align: end;
+}
+
+img {
+
+    max-width: 30%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 60%;
+    }
+}
+
+span {
+    color: #bb5f2a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #bb5f2a !important;
+    font-weight: bold;
+}
+
+#project-link {
+    text-decoration: none;
+    font-size: 2em;
+}
